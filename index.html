@@ -10,11 +10,96 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+    <!-- link to custom scripts -->
+    <script src="scripts.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
   </head>
   <body>
+    <!-- main board always behind using modals to ask the questions? -->
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+    </div>
 
+    <div class="container" id="board">
+        <!--
+        <div class="row justify-content-center" id="popups">
+          Player 1 GO!
+        </div>
+        -->
+        <div class="row justify-content-center" id="boardborder">
+          <table>
+            <tr>
+              <td class="one">
+                <div class="clickbox" id="one">
+                    <a class="clicklink" href="#" id="oneclick"></a>
+                </div>
+              </td>
+              <td class="two">
+                <div class="clickbox" id="two">
+                    <a class="clicklink" href="#" id="twoclick"></a>
+                </div>
+              </td>
+              <td class="three">
+                <div class="clickbox" id="three">
+                    <a class="clicklink" href="#" id="threeclick"></a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="four">
+                <div class="clickbox" id="four">
+                    <a class="clicklink" href="#" id="fourclick"></a>
+                </div>
+              </td>
+              <td class="five">
+                <div class="clickbox" id="five">
+                    <a class="clicklink" href="#" id="fiveclick"></a>
+                </div>
+              </td>
+              <td class="six">
+                <div class="clickbox" id="six">
+                  <a class="clicklink" href="#" id="sixclick"></a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="seven">
+                <div class="clickbox" id="seven">
+                  <a class="clicklink" href="#" id="sevenclick"></a>
+                </div>
+              </td>
+              <td class="eight">
+                <div class="clickbox" id="eight">
+                  <a class="clicklink" href="#" id="eightclick"></a>
+                </div>
+              </td>
+              <td class="nine">
+                <div class="clickbox" id="nine">
+                  <a class="clicklink" href="#" id="nineclick"></a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Built with much angst and learning by <a href="https://aNewDev.io" target="_blank">aNewDev</a> while completing <a href="https://freecodecamp.com" target="_blank">freeCodeCamp</a>.</span>
+      </div>
+    </footer>
   </body>
 </html>
+
+
+
+
 
 <!--
 Build a Tic Tac Toe Game
